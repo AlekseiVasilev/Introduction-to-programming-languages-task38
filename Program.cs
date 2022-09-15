@@ -31,7 +31,7 @@ double FindTheDelta(double delta = 0)
         {
             min = array[i];
         }
-        if (array[i] > max)
+        else if (array[i] > max)
         {
             max = array[i];
         }
